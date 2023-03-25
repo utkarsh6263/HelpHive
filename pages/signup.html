@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../assets/css/style.css" />
+    <link rel="stylesheet" href="../assets/css/signup.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+    <title>HelpHive</title>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+      <div class="logo">
+        <img src="../assets/images/logo black.png" alt="" />
+      </div>
+      <ul class="nav-links">
+        <input type="checkbox" id="checkbox_toggle" />
+        <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+        <div class="menu">
+          <li><a href="../index.html">Home</a></li>
+          <li>
+            <a href="./services.html">Services</a>
+          </li>
+          <li><a href="./team.html">Team</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+          <button class="login"><a href="./login.html">Login</a></button>
+          <button class="signup"><a href="./signup.html">Sign Up</a></button>
+        </div>
+      </ul>
+    </nav>
+
+    <!-- Sign Up Section -->
+    <div class="container">
+      <div class="wrapper">
+        <div class="title"><span>Sign Up</span></div>
+        <form action="#">
+          <div class="row">
+            <i class="fas fa-user"></i>
+            <input type="text" placeholder="First Name" required />
+          </div>
+          <div class="row">
+            <i class="fas fa-user"></i>
+            <input type="text" placeholder="Last Name" required />
+          </div>
+          <div class="row">
+            <i class="fas fa-send"></i>
+            <input type="text" placeholder="Email" required />
+          </div>
+          <div class="row">
+            <i class="fas fa-phone"></i>
+            <input type="text" placeholder="Phone" required />
+          </div>
+          <div class="row">
+            <i class="fas fa-lock"></i>
+            <input type="password" placeholder="Password" required />
+          </div>
+          <div class="row button">
+            <input type="submit" value="Create an account" />
+          </div>
+          <div class="signup-link">
+            Already have an account? <a href="../pages/login.html">Login</a>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
